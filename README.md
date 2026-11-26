@@ -1,8 +1,8 @@
-# 🚀 Production AI Application
+#  Production AI Application
 
 A secure, modular, and production-oriented AI application built using **Python, FastAPI, and Ollama**. This project demonstrates how to integrate Large Language Models (LLMs) into an API with authentication, safety guardrails, conversational memory, logging, and performance monitoring.
 
-## 📌 Project Overview
+##  Project Overview
 
 Building an AI chatbot is relatively simple, but deploying an AI application in a production environment requires additional components such as security, input validation, error handling, conversation management, and monitoring.
 
@@ -12,7 +12,7 @@ The application integrates a locally hosted LLM through Ollama and exposes its c
 
 It also implements API-key authentication, input and output validation, session-based conversation memory, structured logging, and basic performance metrics.
 
-## 🎯 Project Objectives
+##  Project Objectives
 
 - Build a production-oriented AI backend using FastAPI.
 - Integrate locally hosted Large Language Models using Ollama.
@@ -24,7 +24,7 @@ It also implements API-key authentication, input and output validation, session-
 - Develop a modular and maintainable application architecture.
 - Test important application components using Pytest.
 
-## ✨ Key Features
+##  Key Features
 
 ### 1. AI Integration
 - Integrates Ollama with locally hosted LLMs.
@@ -69,7 +69,7 @@ It also implements API-key authentication, input and output validation, session-
 - Uses Pytest for automated testing.
 - Uses HTTPX for API testing.
 
-## 🛠️ Technologies Used
+##  Technologies Used
 
 | Technology | Purpose |
 |---|---|
@@ -84,7 +84,7 @@ It also implements API-key authentication, input and output validation, session-
 | HTTPX | API testing |
 | HMAC | Secure API-key comparison |
 
-## 🏗️ System Architecture
+##  System Architecture
 
 ```text
               Client Application
@@ -120,7 +120,7 @@ It also implements API-key authentication, input and output validation, session-
           Logging and Monitoring
 ```
 
-## 📂 Project Structure
+##  Project Structure
 
 ```text
 Production-AI-Application/
@@ -156,7 +156,7 @@ Production-AI-Application/
 | `outputs/` | Stores project-generated outputs |
 | `requirements.txt` | Contains Python dependencies |
 
-## ⚙️ Installation and Setup
+##  Installation and Setup
 
 ### 1. Clone the Repository
 
@@ -238,7 +238,7 @@ The FastAPI server will start at:
 http://127.0.0.1:8000
 ```
 
-## 📡 API Endpoints
+##  API Endpoints
 
 | Method | Endpoint | Description | Authentication |
 |---|---|---|---|
@@ -311,7 +311,7 @@ DELETE /memory/user_001
 
 Clears the conversation history associated with the specified session.
 
-## 📖 API Documentation
+##  API Documentation
 
 FastAPI automatically generates interactive API documentation.
 
@@ -327,7 +327,7 @@ http://127.0.0.1:8000/redoc
 
 Use Swagger UI to test the API endpoints and provide the required API key for protected endpoints.
 
-## 🧪 Testing
+##  Testing
 
 Run automated tests using:
 
@@ -337,7 +337,7 @@ pytest -v
 
 The project includes a dedicated testing directory for validating application behavior.
 
-## 🔒 Security Considerations
+##  Security Considerations
 
 - API-key authentication for protected endpoints.
 - Input validation before processing user messages.
@@ -348,7 +348,7 @@ The project includes a dedicated testing directory for validating application be
 
 **Note:** The current guardrails implement basic phrase-based filtering. They should not be considered a complete security or content-safety solution.
 
-## 🌍 Real-World Applications
+##  Real-World Applications
 
 This architecture can be extended and used in:
 
@@ -360,7 +360,7 @@ This architecture can be extended and used in:
 - Secure LLM-powered REST APIs.
 - AI integration in existing business applications.
 
-## 🔮 Future Enhancements
+##  Future Enhancements
 
 - Add persistent conversation storage using PostgreSQL.
 - Implement Redis-based session management.
@@ -374,7 +374,7 @@ This architecture can be extended and used in:
 - Add cloud-based LLM provider support.
 - Implement production-grade authentication and authorization.
 
-## 👨‍💻 Author
+##  Author
 
 **Phani Kumar**
 
@@ -385,6 +385,6 @@ AI/ML & Generative AI Developer
 
 ---
 
-⭐ If you find this project useful, consider giving it a star!
+ If you find this project useful, consider giving it a star!
 
 **Built with Python, FastAPI, Ollama, and Generative AI.**
